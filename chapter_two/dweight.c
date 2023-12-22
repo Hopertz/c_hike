@@ -1,6 +1,8 @@
+/* Computes the dimensional weight of a 12 11 x 10 11 x a II box  */
+
 #include <stdio.h>
 
-int main (void){
+    int main(void){
     int height, length, width, volume, weight;
 
     float some_float;
