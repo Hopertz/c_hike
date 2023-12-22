@@ -1,5 +1,6 @@
 /* Computes the dimensional weight of a box from input provided by the user */
 
+#define INCHES_PER_POUND 166
 #include <stdio.h>
 
     int
@@ -13,9 +14,8 @@
     scanf("%d", &length);
     printf("Enter width of box: ");
     scanf("%d", &width);
-    width = 10;
     volume = height * length * width;
-    weight = (volume + 165) / 166;
+    weight = (volume + INCHES_PER_POUND - 1) / INCHES_PER_POUND;
     printf("Dimensions: %dx%dx%d\n", length, width, height);
     printf("Volume (cubic inches) : %d\n", volume);
     printf("Dimensional weight (pounds): %d\n", weight);
