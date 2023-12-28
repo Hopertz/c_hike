@@ -1,5 +1,5 @@
 // Write a program that asks the user to enter a U.S. dollar amount and then shows how to pay
-// that amount using the smallest number of $20, $IO.$5, and $1 bills :
+// that amount using the smallest number of $20, $1O, $5, and $1 bills :
 #include <stdio.h>
 
     int
